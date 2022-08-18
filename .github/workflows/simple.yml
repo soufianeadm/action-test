@@ -8,6 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: echo a string
+        shell: bash
         run: echo "Hello World"
         timeout-minutes: 0
       - name: multiline script 
