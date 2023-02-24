@@ -2,10 +2,18 @@
 name: Actions Workflow 
 
 on: [push, pull_request]
-
+# on:
+#   push:
+#     branches:
+#       - master
+#       - 'feature/*'
+#     tags:
+#       - v1.*
+#     paths:
+#       - '**.js' 
 
 jobs: 
-  run-github-actions: 
+  run-github-actions_test_sousou: 
     runs-on: ubuntu-latest
     steps:
     - name: test ls
