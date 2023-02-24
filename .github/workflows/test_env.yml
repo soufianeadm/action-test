@@ -9,7 +9,7 @@ jobs:
     env:
       JOB_ENV: "c'est mon job env"
     steps:
-      - name: LOG ENV VARIABLES
-        run: |
-          echo "JOB_ENV :" ${{JOB_ENV}}
-          echo "WF_ENV :" ${{WF_ENV}}
+    - name: LOG ENV VARIABLES
+      run: |
+        echo "JOB_ENV :" ${{JOB_ENV}}
+        echo "WF_ENV :" ${{WF_ENV}}
