@@ -5,7 +5,7 @@ env:
 
 jobs:
   mon_job-env:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     env:
       JOB_ENV: "c'est mon job env"
     steps:
