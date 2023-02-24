@@ -15,4 +15,4 @@ jobs:
       run: |
         echo "JOB_ENV :" ${JOB_ENV}
         echo "WF_ENV :" ${WF_ENV}
-        echo "WF_ENV :" ${secret_soufiane}
+        echo "WF_ENV :" ${{secrets.SECRET_SOUSOU}}
