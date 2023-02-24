@@ -2,6 +2,8 @@ name: ENV VARIABLE
 on: push
 env:
   WF_ENV: "variable d'environnement"
+  # secret dans github
+  secret_soufiane: ${{ secrets.SECRET_SOUSOU}}
 
 jobs:
   mon_job-env:
