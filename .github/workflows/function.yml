@@ -6,5 +6,5 @@ jobs:
     steps:
       - name: dump
         run: |
-          echo ${{ contain('hello','ll')}}
+          echo ${{ contains('hello','ll')}}
           echo ${{ startsWith('hello','he') }}
