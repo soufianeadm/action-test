@@ -1,13 +1,6 @@
 name: build
 on: push
 jobs:
-  function:
-    runs-on: ubuntu-latest
-    steps:
-      - name: dump
-        run: |
-          echo ${{ contain('hello','ll')}}
-          echo ${{ startsWith('hello','he') }}
   job1:
     runs-on: ubuntu-latest
     outputs:
